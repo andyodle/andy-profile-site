@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
+    Note: Only put css that will be applied to site globally.
+*/
+
+.main{
+    width: 100vw;
+    min-height: 100vw;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    padding: 120px 24px 160px 24px;
+    pointer-events: none;
+}
+
+.main:before{
+
+}
+
+.main:after{
+
+}
+
+@media screen and (max-width: 640px){
+    .main{
+        padding: 0;
+    }
+}
+
+/* Tailwind Styles */
+.app{
+    @apply relative z-10 flex justify-center items-center flex-col max-w-7xl mx-auto sm:px-16 px-6;
+}
+
+.flex-center {
+    @apply flex justify-center items-center;
+}
+  
+.flex-start {
+    @apply flex justify-start items-start;
+}
+
+.flex-end {
+    @apply flex justify-end items-center;
+}
+
+.flex-between {
+    @apply flex justify-between items-center;
+}
