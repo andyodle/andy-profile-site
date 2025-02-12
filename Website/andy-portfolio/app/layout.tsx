@@ -11,17 +11,19 @@ const RootLayout = ({ children }) => {
     return (
         <html lang="eng">
             <body className="flex flex-col min-h-screen">
-                <div>
+                <div className="flex-grow">
                     <div className="main">
 
                     </div>
 
                     <main className="app">
                         <Nav />
-                        {children}
-                        <Footer />                        
+                        {children}                                              
                     </main>
-                </div>                
+                    
+                </div> 
+
+                <Footer />                 
             </body>
         </html>
     )
