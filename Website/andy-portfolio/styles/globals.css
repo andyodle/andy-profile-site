@@ -6,6 +6,10 @@
     Note: Only put css that will be applied to site globally.
 */
 
+*{
+    font-family: "Helvetica Neue", "Arial"
+}
+
 .main{
     width: 100vw;
     min-height: 100vw;
@@ -17,11 +21,9 @@
 }
 
 .main:before{
-
 }
 
 .main:after{
-
 }
 
 @media screen and (max-width: 640px){
@@ -32,7 +34,7 @@
 
 /* Tailwind Styles */
 .app{
-    @apply relative z-10 flex justify-center items-center flex-col max-w-7xl mx-auto sm:px-16 px-6;
+    @apply relative z-10 flex justify-center items-center flex-col w-full mx-auto;
 }
 
 .flex-center {
@@ -49,4 +51,10 @@
 
 .flex-between {
     @apply flex justify-between items-center;
+}
+
+/* Nav Compoent */
+
+.dropdown_link{
+    @apply hover:text-primary-orange;
 }

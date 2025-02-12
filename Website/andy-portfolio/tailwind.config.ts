@@ -9,6 +9,7 @@ export default {
   theme: {
     extend: {
       colors: {
+        'primary-nav-blue': "#353b57",
         'primary-orange': "#FF5722",
         background: "var(--background)",
         foreground: "var(--foreground)",

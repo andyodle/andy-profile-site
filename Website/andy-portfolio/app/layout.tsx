@@ -1,5 +1,5 @@
 import '@styles/globals.css';
-{/* TODO: Add Navigation Component */}
+import Nav from '@components/Nav';
 
 export const metadata = {
     title: "Portfolio",
@@ -16,7 +16,7 @@ const RootLayout = ({ children }) => {
                     </div>
 
                     <main className="app">
-                        {/* TODO: Navigation Menu */}
+                        <Nav />
                         {children}
                     </main>
                 </div>
