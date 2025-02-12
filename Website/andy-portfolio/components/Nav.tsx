@@ -8,7 +8,7 @@ const Nav = () => {
     const [ toggleDropdown, setToggleDropdown ] = useState(false);
 
     return (
-        <>
+        <div className="w-full fixed top-0">
         <nav className="flex-between w-full pt-3 px-8 py-4 bg-primary-nav-blue text-white">
             <Link href="/" className="flex gap-2 flex-center hover:text-primary-orange">
                 <span className="text-4xl object-contain">ANDY ODLE</span>                
@@ -82,7 +82,7 @@ const Nav = () => {
                 </Link>                            
             </div>
         )}         
-        </>
+        </div>
     )
 }
 

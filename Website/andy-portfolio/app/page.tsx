@@ -1,22 +1,12 @@
-import Image from 'next/image';
+import Hero from '@components/Hero';
+import About from '@components/About';
 
 const Home = () => {
     return (
-        <section className="w-full flex-center flex-col bg-[#2c3144] text-white">
-            <Image 
-                src="/assets/images/ProfileImage.png"
-                alt="Profile Picture"
-                width={240}
-                height={240}
-                className="py-4"
-            />
+        <section className="">
+            <Hero />
 
-            <h1 className="text-center font-semibold text-4xl py-4">ANDY ODLE</h1>
-
-            <hr className="py-2 w-1/2 mx-auto border-t-4 border-solid rounded-sm" />
-
-            <span className="py-4 mx-24 font-semibold text-lg">Software Engineer, Entrepreneur in Grants Pass, Oregon</span>
-
+            <About />
         </section>
     )
 }
