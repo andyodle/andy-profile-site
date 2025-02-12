@@ -11,7 +11,12 @@ const Nav = () => {
         <div className="w-full fixed top-0">
         <nav className="flex-between w-full pt-3 px-8 py-4 bg-primary-nav-blue text-white">
             <Link href="/" className="flex gap-2 flex-center hover:text-primary-orange">
-                <span className="text-4xl object-contain">ANDY ODLE</span>                
+                <span 
+                    className="text-3xl object-contain"
+                    onClick={() => setToggleDropdown(false)}
+                >
+                    ANDY ODLE
+                </span>                
             </Link>  
 
             {/* LinkedIn Link */}
@@ -59,24 +64,27 @@ const Nav = () => {
 
         {/* Collapseable Mobile Links */}
         {toggleDropdown && (
-            <div className="flex flex-col gap-2  mt-[0.5] p-5 w-full justify-start items-start bg-primary-nav-blue text-white text-3xl sm:hidden">
+            <div className="flex flex-col gap-2  mt-[0.5] p-5 w-full justify-start items-start bg-primary-nav-blue text-white text-2xl sm:hidden">
                 <Link
                     href="#about"
-                    className="dropdown_link"
+                    className="dropdown_link w-full"
+                    onClick={() => setToggleDropdown(false)}
                 >
                     ABOUT ME
                 </Link>
 
                 <Link
                     href="#projects"
-                    className="dropdown_link"
+                    className="dropdown_link w-full"
+                    onClick={() => setToggleDropdown(false)}
                 >
                     PROJECTS
                 </Link>                
 
                 <Link
                     href="#contact"
-                    className="dropdown_link"
+                    className="dropdown_link w-full"
+                    onClick={() => setToggleDropdown(false)}
                 >
                     CONTACT
                 </Link>                            
