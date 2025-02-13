@@ -1,6 +1,7 @@
 import '@styles/globals.css';
 import Nav from '@components/Nav';
 import Footer from '@components/Footer';
+import ScrollToTopButton from '@components/ScrollToTopButton';
 
 export const metadata = {
     title: "Portfolio",
@@ -23,7 +24,10 @@ const RootLayout = ({ children }) => {
                     
                 </div> 
 
-                <Footer />                 
+                <Footer />
+
+                <ScrollToTopButton />
+
             </body>
         </html>
     )

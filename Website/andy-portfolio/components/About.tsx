@@ -1,9 +1,9 @@
+const About = () => {
 
-const Hero = () => {
     return (
         <section 
             id="about"
-            className="w-full py-4 flex-center flex-col text-[#2c3144]">
+            className="w-full py-4 flex-center flex-col text-primary-blue scroll-mt-10">
 
             <h1 className="text-center font-semibold text-4xl py-4">ABOUT ME</h1>
 
@@ -26,4 +26,4 @@ const Hero = () => {
     )
 }
 
-export default Hero
+export default About

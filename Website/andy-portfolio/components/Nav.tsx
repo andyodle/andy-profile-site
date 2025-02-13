@@ -1,19 +1,27 @@
 "use client"
 
-import { useState } from 'react';
+import { useState, useRef } from 'react';
 import Link from 'next/link'
 import Image from 'next/image';
 
 const Nav = () => {
     const [ toggleDropdown, setToggleDropdown ] = useState(false);
 
+    const scrollToSection = (sectionToFocus: string) => {
+        const tempSection = document.getElementById(sectionToFocus);
+        if (tempSection){     
+            tempSection.scrollIntoView({ behavior: "smooth", block: "start" });
+            setToggleDropdown(false);
+        }
+    }
+
     return (
-        <div className="w-full fixed top-0">
+        <div className="w-full fixed top-0 z-50">
         <nav className="flex-between w-full pt-3 px-8 py-4 bg-primary-nav-blue text-white">
             <Link href="/" className="flex gap-2 flex-center hover:text-primary-orange">
                 <span 
                     className="text-3xl object-contain"
-                    onClick={() => setToggleDropdown(false)}
+                    onClick={() => scrollToSection("home")}
                 >
                     ANDY ODLE
                 </span>                
@@ -65,29 +73,27 @@ const Nav = () => {
         {/* Collapseable Mobile Links */}
         {toggleDropdown && (
             <div className="flex flex-col gap-2  mt-[0.5] p-5 w-full justify-start items-start bg-primary-nav-blue text-white text-2xl sm:hidden">
-                <Link
-                    href="#about"
-                    className="dropdown_link w-full"
-                    onClick={() => setToggleDropdown(false)}
+                <span
+                    className="dropdown_link w-full cursor-pointer"
+                    onClick={() => scrollToSection("about")}
                 >
                     ABOUT ME
-                </Link>
+                </span>
 
-                <Link
-                    href="#projects"
-                    className="dropdown_link w-full"
-                    onClick={() => setToggleDropdown(false)}
+                <span
+                    className="dropdown_link w-full cursor-pointer"
+                    onClick={() => scrollToSection("projects")}
                 >
                     PROJECTS
-                </Link>                
+                </span>                
 
-                <Link
+                <span
                     href="#contact"
-                    className="dropdown_link w-full"
-                    onClick={() => setToggleDropdown(false)}
+                    className="dropdown_link w-full cursor-pointer"
+                    onClick={() => scrollToSection("contact")}
                 >
                     CONTACT
-                </Link>                            
+                </span>                            
             </div>
         )}         
         </div>
