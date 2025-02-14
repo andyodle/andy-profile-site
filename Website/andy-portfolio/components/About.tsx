@@ -10,7 +10,7 @@ const About = () => {
             <hr className="py-2 w-1/2 mx-auto border-t-4 border-solid rounded-sm" />
 
             <p className="py-4 mx-6 font-semibold text-lg">
-                15+ years of experience as a software engineer, specializeing in 
+                16+ years of experience as a software engineer, specializeing in 
                 designing, developing and optimizing software solutions. 
                 My focus is on creating tools and applications that streamline workflows 
                 for a user to be able to dedicate more time to their core tasks. 

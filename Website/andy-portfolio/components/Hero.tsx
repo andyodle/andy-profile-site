@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 const Hero = () => {
     return (
-        <section className="pt-24 w-full flex-center flex-col bg-primary-blue text-white">
+        <section className="pt-24 py-4 w-full flex-center flex-col bg-primary-blue text-white">
             <Image 
                 src="/assets/images/ProfileImage.png"
                 alt="Profile Picture"

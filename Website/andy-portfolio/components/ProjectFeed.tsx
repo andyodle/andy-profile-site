@@ -6,7 +6,7 @@ import ProjectCard from './ProjectCard';
 
 const ProjectCardList = ({ data, handleProjectClick }) => {
     return (
-        <div className="mt-4 py-8 space-y-6 sm:columns-2 sm:gap-6 xl:columns-3">
+        <div className="mt-4 mx-2 py-8 space-y-6 sm:columns-2 sm:gap-6 xl:columns-3">
             {data.map((tempProject) => (
                 <ProjectCard 
                     key={tempProject.id}
