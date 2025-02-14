@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 48 48"
+   width="96px"
+   height="96px"
+   version="1.1"
+   id="svg17"
+   sodipodi:docname="icons8-youtube.svg"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs21" />
+  <sodipodi:namedview
+     id="namedview19"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="9.0416667"
+     inkscape:cx="44.460829"
+     inkscape:cy="48.0553"
+     inkscape:window-width="1920"
+     inkscape:window-height="1011"
+     inkscape:window-x="0"
+     inkscape:window-y="1112"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg17" />
+  <linearGradient
+     id="PgB_UHa29h0TpFV_moJI9a"
+     x1="9.816"
+     x2="41.246"
+     y1="9.871"
+     y2="41.301"
+     gradientUnits="userSpaceOnUse">
+    <stop
+       offset="0"
+       stop-color="#f44f5a"
+       id="stop2" />
+    <stop
+       offset=".443"
+       stop-color="#ee3d4a"
+       id="stop4" />
+    <stop
+       offset="1"
+       stop-color="#e52030"
+       id="stop6" />
+  </linearGradient>
+  <path
+     id="path9"
+     d="M 23.945312 8 C 17.142319 8 11.107325 8.6398521 7.4863281 9.1728516 C 5.1823304 9.4928512 3.3169292 11.200432 2.8779297 13.44043 C 2.4389301 15.893427 2 19.520004 2 24 C 2 28.479996 2.4389301 32.106573 2.8779297 34.55957 C 3.3159292 36.799568 5.1823304 38.507149 7.4863281 38.827148 C 11.217324 39.360148 17.252319 40 23.945312 40 C 30.748306 40 36.7833 39.360148 40.404297 38.827148 C 42.708295 38.507149 44.572719 36.799568 45.011719 34.55957 C 45.450718 32.106573 45.89 28.479996 46 24 C 46 19.520004 45.450718 15.893427 45.011719 13.44043 C 44.573719 11.200432 42.708295 9.4928512 40.404297 9.1728516 C 36.673301 8.6398521 30.748306 8 23.945312 8 z M 19.841797 14.5 C 20.216707 14.493041 20.591453 14.599844 20.916016 14.816406 L 32.351562 22.44043 C 32.873562 22.789429 33.186547 23.371977 33.185547 24.000977 C 33.185547 24.628976 32.873585 25.211547 32.350586 25.560547 L 20.915039 33.18457 C 20.601039 33.39357 20.239 33.5 19.875 33.5 C 19.572 33.5 19.269211 33.42732 18.991211 33.27832 C 18.380212 32.951321 18 32.317023 18 31.624023 L 18 16.375977 C 18 15.682977 18.380212 15.049656 18.991211 14.722656 C 19.258523 14.579156 19.5502 14.505412 19.841797 14.5 z "
+     style="fill:#ffffff" />
+</svg>
