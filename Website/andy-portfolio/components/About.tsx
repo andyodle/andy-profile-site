@@ -9,18 +9,52 @@ const About = () => {
 
             <hr className="py-2 w-1/2 mx-auto border-t-4 border-solid rounded-sm" />
 
-            <p className="py-4 mx-6 font-semibold text-lg">
-                16+ years of experience as a software engineer, specializeing in 
-                designing, developing and optimizing software solutions. 
-                My focus is on creating tools and applications that streamline workflows 
-                for a user to be able to dedicate more time to their core tasks. 
-                Am proficient in Python, C# and Perl. I'm always eager to learn and adapt 
-                to new technologies and tools. 
-                Have extensive experience with development environments including 
-                Windows, Visual Studio and Visual Studio Code.
-                Have also worked with various Linux distributions such as 
-                Ubuntu, RedHat and Fedora.
-            </p>
+            <div
+                className="flex sm:columns-2 sm:gap-6"
+            >
+                <div className="flex-1 py-4 mx-6 font-semibold text-lg basis-1/2">
+                    <p className="pb-2">
+                        16+ years of experience as a software engineer, specializeing in 
+                        designing, developing and optimizing software solutions. 
+                        Focusing on creating tools and applications that streamline and improve user workflows. 
+                        That enable users to spend more time on their core tasks. 
+                    </p>
+                    <p className="py-2">
+                        I'm here to help create new tools and applications that enable better user experiences. 
+                        Always looking for opportunities to solve interesting problems in the software engineering industry. 
+                    </p>                    
+                </div>
+
+                <div className="py-2 px-4 font-semibold text-lg basis-1/2">
+
+                    <ul className="mx-6 list-disc">
+
+                        <li className="py-2">
+                            <span>Extensive experience with varried development environments including Windows, Visual Studio and Visual Studio Code.</span>
+                        </li>
+
+                        <li className="py-2">
+                            <span>Have worked with various Linux distributions such as Ubuntu, RedHat and Fedora.</span>
+                        </li>
+
+                        <li className="py-2">
+                            <span>Strong in Python, C# and Perl.</span>
+                        </li> 
+
+                        <li className="py-2">
+                            <span>Famiular with Javascript, TypeScript, TailwindCSS, CSS, HTML, Next.js, Vuejs and other web technologies.</span>
+                        </li>                        
+
+                        <li className="py-2">
+                            <span>BS Software Engineering from Oregon Institute of Technology</span>
+                        </li>                        
+
+                        <li className="py-2">
+                            <span>Eager to learn new technologies and tools.</span>
+                        </li>                                                                                   
+                    </ul>
+                </div>
+            </div>            
 
         </section>
     )
