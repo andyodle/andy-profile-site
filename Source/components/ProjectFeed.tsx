@@ -4,10 +4,15 @@ import { useEffect, useState } from 'react';
 import Image from 'next/image';
 import ProjectCard from './ProjectCard';
 
-const ProjectCardList = ({ data, handleProjectClick }) => {
+interface ProjectCardListProps{
+    data: any,
+    handleProjectClick: any,
+}
+
+const ProjectCardList: React.FC<ProjectCardListProps> = ({ data, handleProjectClick }) => {
     return (
         <div className="mt-4 mx-2 py-8 space-y-6 sm:columns-2 sm:gap-6 xl:columns-3">
-            {data.map((tempProject) => (
+            {data.map((tempProject: any) => (
                 <ProjectCard 
                     key={tempProject.id}
                     project={tempProject}

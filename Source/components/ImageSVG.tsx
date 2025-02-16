@@ -1,4 +1,12 @@
-const ImageSVG = ({ width, height, fill, viewBox, pathData }) => {
+interface ImageSVGProps{
+    width: number, 
+    height: number, 
+    fill: string, 
+    viewBox: string, 
+    pathData: string,
+}
+
+const ImageSVG: React.FC<ImageSVGProps> = ({ width, height, fill, viewBox, pathData }) => {
     return (
         <svg
             width={width}

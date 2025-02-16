@@ -1,14 +1,19 @@
 import '@styles/globals.css';
+import { ReactNode } from 'react';
 import Nav from '@components/Nav';
 import Footer from '@components/Footer';
 import ScrollToTopButton from '@components/ScrollToTopButton';
+
+interface RootLayoutProps{
+    children: ReactNode;
+}
 
 export const metadata = {
     title: "Portfolio",
     descriptoin: "Learn more about Andy's projects."
 }
 
-const RootLayout = ({ children }) => {
+const RootLayout: React.FC<RootLayoutProps> = ({ children }) => {
     return (
         <html lang="eng">
             <body className="flex flex-col min-h-screen">

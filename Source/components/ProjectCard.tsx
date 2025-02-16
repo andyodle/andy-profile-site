@@ -1,6 +1,11 @@
 import Image from 'next/image';
 
-const ProjectCard = ({ project, handleProjectClick }) => {
+interface ProjectCardProps{
+    project: any,
+    handleProjectClick: any,
+}
+
+const ProjectCard: React.FC<ProjectCardProps> = ({ project, handleProjectClick }) => {
     return (
         <div className="p-6 pb-4 w-full min-h-[350] flex-1 break-inside-avoid rounded-[2vw] border-gray-300 bg-primary-nav-blue text-white brightness-150 bg-clip-padding backdrop-blur-lg backdrop-filter md:min-w-[400px] md:min-h-[400px]">
             <a 
@@ -41,7 +46,7 @@ const ProjectCard = ({ project, handleProjectClick }) => {
                             </p>
 
                             <ul className="py-2 px-4 mx-6 text-medium list-disc sm:columns-2 sm:gap-6">
-                                {project.workSkills && (project.workSkills.map((workSkill) => (
+                                {project.workSkills && (project.workSkills.map((workSkill: any) => (
                                     <li
                                         key={workSkill.id}
                                         className="py-2"
