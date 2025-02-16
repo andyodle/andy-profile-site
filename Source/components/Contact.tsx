@@ -33,7 +33,7 @@ const Contact = () => {
 
                     {/* Github Link */}
                     <a 
-                        href="https://github.com/Isrelo"
+                        href="https://github.com/andyodle"
                         target="_blank"                        
                         className="pl-2 pr-2 cursor-pointer"
                     >
