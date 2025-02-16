@@ -67,7 +67,7 @@ const Contact = () => {
                     <a 
                         href="mailto:andy.odle@blacklightcoders.com?subject=Hi Andy, I'd like to hire you."
                         target="_blank"                        
-                        className="pl-4 pr-2 cursor-pointer"
+                        className="pl-2 pr-2 cursor-pointer"
                     >
                         <ImageSVG 
                             width={64}

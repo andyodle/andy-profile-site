@@ -45,6 +45,7 @@ export const GET = async (request) => {
                     },                                                                                                                          
                 ],
                 imageCapsule: "/assets/images/projects/LazinAroundCapsule.png",
+                websiteLink: "https://lazinaround.com/"
             },
             
             {
