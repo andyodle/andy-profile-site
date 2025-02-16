@@ -10,7 +10,10 @@ interface RootLayoutProps{
 
 export const metadata = {
     title: "Portfolio",
-    descriptoin: "Learn more about Andy's projects."
+    descriptoin: "Learn more about Andy's projects.",
+    icons:{
+        icon: '/favicon.png'
+    },
 }
 
 const RootLayout: React.FC<RootLayoutProps> = ({ children }) => {
