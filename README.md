@@ -35,6 +35,23 @@ npm install
 ```
 npm run dev
 ```
+
+# Prepare Deployment
+1. Test building for production.
+```
+npm run build
+```
+2. Make sure production build works.
+```
+npm run start
+```
+# Configure Netlify Build Settings
+If you want to deploy to netlify use these settings.
+
+<p align="center">
+    <img src="Documentation/images/NetlifyDeploySettins.png" width=600 height=400>
+</p>
+
 # Bild Your Own Next.js Project From Scratch
 
 1. Use npx to create starter project in the current directory.  
