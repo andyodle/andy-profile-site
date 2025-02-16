@@ -1,6 +1,5 @@
 "use client"
 
-import Image from 'next/image';
 import ImageSVG from '@components/ImageSVG';
 
 const ScrollToTopButton = () => {

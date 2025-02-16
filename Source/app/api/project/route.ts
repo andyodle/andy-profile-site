@@ -1,4 +1,4 @@
-export const GET = async (request: any) => {
+export const GET = async () => {
     try {
         // Test Projects Data
         const projects = [

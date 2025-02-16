@@ -3,7 +3,7 @@
 </p>
 
 # Portfolio Website
-My personal portfolio [andy-portfolio-net.app](https://lazinaround.com) which features some of my current projects and showcases some of my technical skills.
+My personal portfolio [andy-profile.netlify.app](https://andy-profile.netlify.app/) which features some of my current projects and showcases some of my technical skills.
 
 This Portfolio was inspired by [JeromeLachaud's](https://jeromelachaud.com/freelancer-theme/) freelancer-theme.
 
