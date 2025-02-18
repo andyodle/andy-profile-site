@@ -45,16 +45,46 @@ export const GET = async () => {
                     },                                                                                                                          
                 ],
                 imageCapsule: "/assets/images/projects/LazinAroundCapsule.png",
+                imageGif: "https://lazinaround.com/img/game/RGBMCY.gif",
                 websiteLink: "https://lazinaround.com/"
             },
-            
+
             {
                 id: 2,
-                title: "VirtualVictories",
-                summary: "We all need a win once and awhile. Even if it is a virtual win. Been gaming for most of my life and just wanted a place to share some of the games I like to play.",
-                details: "",
-                imageCapsule: "",
-            },            
+                title: "Catboob (GGStream)",
+                summary: "Catboob is a Material Design inspired .Net tool for displaying an overlay and playing an accomping sound when a hotkey combination is pressed.",
+                workXpSummary: "Developed an open-source program to enable Twitch.tv streamers to enhance their streams by displaying overlay images and playing custom sounds via global hot-key combinations.",
+                workSkills: [
+                    {
+                        id: 1,
+                        skill: "Key Functionality",
+                        desc: "Implemented a system to detect global hot-key presses independent of the user’s active application, ensuring seamless usability during streaming."
+                    },
+                    {
+                        id: 2,
+                        skill: "User-Centered Design",
+                        desc: "Collaborated with streamers to gather feedback and implement usability improvements, tailoring the application to meet their needs."
+                    }, 
+                    {
+                        id: 3,
+                        skill: "UI Design Excellence",
+                        desc: "Designed an intuitive and visually appealing graphical user interface (GUI) following Material Design principles to enhance user experience."
+                    },
+                    {
+                        id: 4,
+                        skill: "Personal Initiative",
+                        desc: "Built and maintained the project as a passion-driven side project during my free time."
+                    },
+                    {
+                        id: 5,
+                        skill: "Technical Stack",
+                        desc: "Developed the application using C# and WPF, leveraging these technologies to create a polished and functional tool"
+                    },                                                                                
+                ],
+                imageCapsule: "/assets/images/projects/Catboob-Capsule.png",
+                imageGif: "https://raw.githubusercontent.com/Isrelo/Catboob/master/Images/CatboobPreview.gif",
+                websiteLink: "https://github.com/Isrelo/Catboob",                
+            },                   
         ];     
         
         return new Response(JSON.stringify(projects), { status: 200 })

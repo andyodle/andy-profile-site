@@ -13,16 +13,21 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project, handleProjectClick }
                 className="pl-4 pr-2"
             >
                 <div className="flex-center flex-col justify-between items-start gap-5">
-                    <div>
+                    <div className="w-[400px] h-[300px] relative group">
                         {project.imageCapsule && (
                             <img 
                                 src={project.imageCapsule}
                                 alt="Project Image"
-                                width={400}
-                                height={200}
-                                className="object-contain"                        
+                                className="w-full h-full object-fill transition-all duration-300 group-hover:opacity-0"                        
                             />
                         )}
+                        {project.imageGif && (
+                            <img 
+                                src={project.imageGif}
+                                alt="Project Gif Image"
+                                className="w-full h-full absolute inset-0 object-fill opacity-0 group-hover:opacity-100 transition-opacity duration-300"                        
+                            />
+                        )}                        
                     </div>
                     
                     {/* Title */}

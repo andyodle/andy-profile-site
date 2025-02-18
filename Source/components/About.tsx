@@ -42,7 +42,7 @@ const About = () => {
                         </li> 
 
                         <li className="py-2">
-                            <span>Famiular with Javascript, TypeScript, TailwindCSS, CSS, HTML, Next.js, Vuejs and other web technologies.</span>
+                            <span>Famiular with Javascript, TypeScript, TailwindCSS, CSS, HTML, Next.js, Vue.js and other web technologies.</span>
                         </li>                        
 
                         <li className="py-2">
