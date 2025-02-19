@@ -7,6 +7,32 @@ export const GET = async () => {
                 title: "LazinAround",
                 summary: "A puzzle game that will put your laser puzzling and color theory skills to the test. Master the increasingly complex puzzles by manipulating multiple lasers into a single color.",
                 workXpSummary: "Designed, developed and released 2D puzzle game, overseeing every single stage from concept to deployment while ensuring high-quality gameplay and user experience.",
+                techTags:[
+                    {
+                        id: 1,
+                        tag: "Python",
+                    },
+                    {
+                        id: 2,
+                        tag: "JavaScript",
+                    },
+                    {
+                        id: 3,
+                        tag: "CSS",
+                    },
+                    {
+                        id: 4,
+                        tag: "Godot",
+                    },                    
+                    {
+                        id: 5,
+                        tag: "Docker",
+                    },
+                    {
+                        id: 6,
+                        tag: "Jenkins",
+                    },                                                                                                                 
+                ],
                 workSkills: [
                     {
                         id: 1,
@@ -54,6 +80,20 @@ export const GET = async () => {
                 title: "Catboob (GGStream)",
                 summary: "Catboob is a Material Design inspired .Net tool for displaying an overlay and playing an accomping sound when a hotkey combination is pressed.",
                 workXpSummary: "Developed an open-source program to enable Twitch.tv streamers to enhance their streams by displaying overlay images and playing custom sounds via global hot-key combinations.",
+                techTags:[
+                    {
+                        id: 1,
+                        tag: "C#",
+                    },
+                    {
+                        id: 2,
+                        tag: "WPF",
+                    },
+                    {
+                        id: 3,
+                        tag: "UX / UI",
+                    },                                                                                                                                     
+                ],                
                 workSkills: [
                     {
                         id: 1,
