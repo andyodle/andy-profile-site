@@ -10,7 +10,7 @@ const About = () => {
             <hr className="py-2 w-1/2 mx-auto border-t-4 border-solid rounded-sm" />
 
             <div
-                className="flex sm:columns-2 sm:gap-6 lg:flex-col"
+                className="mt-4 mx-12 py-8 space-y-6 sm:columns-2 sm:gap-6 xl:columns-3"
             >
                 <div className="flex-1 py-4 mx-6 font-semibold text-lg basis-1/2">
                     <p className="pb-2">

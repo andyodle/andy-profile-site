@@ -20,6 +20,8 @@ const RootLayout: React.FC<RootLayoutProps> = ({ children }) => {
     return (
         <html lang="eng">
             <body className="flex flex-col min-h-screen">
+                <ScrollToTopButton />
+                
                 <div className="flex-grow">
                     <div className="main">
 
@@ -32,9 +34,7 @@ const RootLayout: React.FC<RootLayoutProps> = ({ children }) => {
                     
                 </div> 
 
-                <Footer />
-
-                <ScrollToTopButton />
+                <Footer />                
 
             </body>
         </html>

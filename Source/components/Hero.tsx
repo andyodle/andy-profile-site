@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 const Hero = () => {
     return (
-        <section className="pt-24 py-4 w-full flex-center flex-col bg-primary-blue text-white">
+        <section className="pt-24 py-4 w-full flex-center text-center flex-col bg-primary-blue text-white">
             <Image 
                 src="/assets/images/ProfileImage.png"
                 alt="Profile Picture"
@@ -11,11 +11,11 @@ const Hero = () => {
                 className="py-4"
             />
 
-            <h1 className="text-center font-semibold text-4xl py-4">ANDY ODLE</h1>
+            <h1 className="font-semibold text-4xl py-4">ANDY ODLE</h1>
 
             <hr className="py-2 w-1/2 mx-auto border-t-4 border-solid rounded-sm" />
 
-            <span className="py-4 mx-12 font-semibold text-lg">Software Engineer, Entrepreneur in Grants Pass, Oregon</span>
+            <span className="py-4 mx-24 font-semibold text-lg">Software Engineer, Entrepreneur in Grants Pass, Oregon</span>
 
         </section>
     )

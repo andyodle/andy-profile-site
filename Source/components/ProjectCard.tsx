@@ -7,7 +7,7 @@ interface ProjectCardProps{
 const ProjectCard: React.FC<ProjectCardProps> = ({ project, handleProjectClick }) => {
     return (
         <div className="p-6 pb-4 w-full min-h-[350] flex-1 break-inside-avoid rounded-[2vw] border-gray-300 bg-primary-nav-blue text-white brightness-150 bg-clip-padding backdrop-blur-lg backdrop-filter md:min-w-[400px] md:min-h-[400px]">
-            <div className="flex-center flex-col justify-between items-start gap-5">
+            <div className="mx-6 flex-center flex-col justify-between items-start gap-5">
                 <div className="w-[400px] h-[300px] relative group">
                     {project.imageCapsule && (
                         <img 
@@ -38,7 +38,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project, handleProjectClick }
                 <a 
                     href={project.websiteLink}
                     target="_blank"                    
-                    className="bg-primary-orange hover:brightness-75 text-white font-bold py-2 px-4 rounded"
+                    className="py-2 px-4 bg-primary-orange hover:brightness-75 text-white font-bold rounded"
                 >
                     VIEW PROJECT
                 </a>                    
@@ -54,7 +54,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project, handleProjectClick }
                             {project.techTags && (project.techTags.map((tag: any) => (
                                 <span
                                     key={tag.id} 
-                                    className="bg-gray-100 text-gray-800 text-xs font-medium me-2 px-2.5 py-0.5 rounded-sm dark:bg-gray-700 dark:text-gray-300">
+                                    className="me-2 px-2.5 py-0.5 bg-gray-100 text-gray-800 text-xs font-medium rounded-sm dark:bg-gray-700 dark:text-gray-300">
                                     {tag.tag}
                                 </span>
                             )))}
