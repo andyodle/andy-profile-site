@@ -30,7 +30,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project, handleProjectClick }
                 <hr className="w-1/2 mx-auto border-t-1 border-solid rounded-sm" />
                 
                 {/* Summary */}
-                <p className="py-2 mx-6 min-h-[150] font-semibold text-lg">
+                <p className="py-2 mx-6 min-h-[175] font-semibold text-lg">
                     {project.summary}
                 </p>
 

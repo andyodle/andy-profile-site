@@ -77,6 +77,61 @@ export const GET = async () => {
 
             {
                 id: 2,
+                title: "AssetTransactionLog",
+                summary: "An application to help keep track of fractional assets bought and sold. This application allows efficiently tracking and managing bought and sold fractional assets records. Offering a clear and organized history with an intuitive user interface. Ideal for those involved in fractional stocks or crypto asset markets.",
+                workXpSummary: "Developed an open-source program to keep track of assets bought and sold. Overseeing every single stage from concept to deployment.",
+                techTags:[
+                    {
+                        id: 1,
+                        tag: "GDScript",
+                    },
+                    {
+                        id: 2,
+                        tag: "Python",
+                    },
+                    {
+                        id: 3,
+                        tag: "C++",
+                    },
+                    {
+                        id: 4,
+                        tag: "Godot",
+                    },                                                                                                                                                          
+                ],                
+                workSkills: [
+                    {
+                        id: 1,
+                        skill: "Key Functionality",
+                        desc: "GUI to add buy / sell asset transactions and save / load transactions for different assets."
+                    },
+                    {
+                        id: 2,
+                        skill: "User-Centered Design",
+                        desc: "Collaborated with clients to gather feedback and implement improvements, tailoring the application to meet their needs."
+                    }, 
+                    {
+                        id: 3,
+                        skill: "UI Design Excellence",
+                        desc: "Designed an intuitive and visually appealing graphical user interface (GUI) following Material Design principles to enhance user experience."
+                    },
+                    {
+                        id: 4,
+                        skill: "Personal Initiative",
+                        desc: "Built and maintained the project as a passion-driven side project during my free time."
+                    },
+                    {
+                        id: 5,
+                        skill: "Technical Stack",
+                        desc: "Developed the application using GDScript, Python and Godot, leveraging these technologies to create a polished and functional tool"
+                    },                                                                                
+                ],
+                imageCapsule: "/assets/images/projects/AssetTrasnactionLogCapsule.png",
+                imageGif: "/assets/images/projects/AssetTrasnactionLogCapsule.png",
+                websiteLink: "https://github.com/andyodle/AssetTransactionLog",                
+            },             
+
+            {
+                id: 3,
                 title: "Catboob (GGStream)",
                 summary: "Catboob is a Material Design inspired .Net tool for displaying an overlay and playing an accomping sound when a hotkey combination is pressed.",
                 workXpSummary: "Developed an open-source program to enable Twitch.tv streamers to enhance their streams by displaying overlay images and playing custom sounds via global hot-key combinations.",
