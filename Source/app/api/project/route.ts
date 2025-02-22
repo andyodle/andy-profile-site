@@ -78,7 +78,7 @@ export const GET = async () => {
             {
                 id: 2,
                 title: "AssetTransactionLog",
-                summary: "An application to help keep track of fractional assets bought and sold. This application allows efficiently tracking and managing bought and sold fractional assets records. Offering a clear and organized history with an intuitive user interface. Ideal for those involved in fractional stocks or crypto asset markets.",
+                summary: "An application to help keep track of fractional assets bought and sold. Offering a clear and organized history with an intuitive user interface. Ideal for those involved in fractional stocks or crypto asset markets.",
                 workXpSummary: "Developed an open-source program to keep track of assets bought and sold. Overseeing every single stage from concept to deployment.",
                 techTags:[
                     {
