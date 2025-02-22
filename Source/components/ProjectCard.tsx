@@ -6,9 +6,9 @@ interface ProjectCardProps{
 
 const ProjectCard: React.FC<ProjectCardProps> = ({ project, handleProjectClick }) => {
     return (
-        <div className="p-6 pb-4 w-full min-h-[350] flex-1 break-inside-avoid rounded-[2vw] border-gray-300 bg-primary-nav-blue text-white brightness-150 bg-clip-padding backdrop-blur-lg backdrop-filter md:min-w-[400px] md:min-h-[400px]">
-            <div className="mx-6 flex-center flex-col justify-between items-start gap-5">
-                <div className="w-[400px] h-[300px] relative group">
+        <div className="p-6 pb-4 mx-4 w-full min-h-[350] md:min-w-[200px] md:min-h-[200px] flex-1 break-inside-avoid rounded-[2vw] border-gray-300 bg-primary-nav-blue text-white brightness-150 bg-clip-padding backdrop-blur-lg backdrop-filter">
+            <div className="w-full px-4 flex-center flex-col justify-between items-start gap-5">
+                <div className="w-[300px] h-[200px] relative group">
                     {project.imageCapsule && (
                         <img 
                             src={project.imageCapsule}
@@ -26,11 +26,11 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project, handleProjectClick }
                 </div>
                 
                 {/* Title */}
-                <h1 className="text-center py-2 font-semibold text-4xl">{project.title}</h1>
+                <h1 className="text-center mx-4 py-2 font-semibold text-xl sm:text-2xl xl:text-4xl">{project.title}</h1>
                 <hr className="w-1/2 mx-auto border-t-1 border-solid rounded-sm" />
                 
                 {/* Summary */}
-                <p className="py-2 mx-6 min-h-[175] font-semibold text-lg">
+                <p className="py-2 min-h-[175] font-semibold text-lg">
                     {project.summary}
                 </p>
 
@@ -45,26 +45,26 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project, handleProjectClick }
                 
                 {/* Work Experience */}  
                 {project.workXpSummary && (
-                    <div>              
-                        <h1 className="text-center py-4 font-semibold text-4xl">Work Experience</h1>
+                    <div className="mx-4 w-full">              
+                        <h1 className="text-center py-4 font-semibold  text-xl sm:text-2xl xl:text-4xl">Work Experience</h1>
                         <hr className="w-1/2 mx-auto border-t-1 border-solid rounded-sm" />
 
                         {/* Tech Tags */}
-                        <div className="py-4 text-center">
+                        <div className="py-4 flex flex-wrap text-center text-wrap">
                             {project.techTags && (project.techTags.map((tag: any) => (
                                 <span
                                     key={tag.id} 
-                                    className="me-2 px-2.5 py-0.5 bg-gray-100 text-gray-800 text-xs font-medium rounded-sm dark:bg-gray-700 dark:text-gray-300">
+                                    className="me-2 m-2 px-2.5 py-0.5 bg-gray-100 text-gray-800 text-xs font-medium rounded-sm dark:bg-gray-700 dark:text-gray-300">
                                     {tag.tag}
                                 </span>
                             )))}
                         </div>
 
-                        <p className="py-2 mx-6 font-semibold text-lg">
+                        <p className="py-2 font-semibold text-lg">
                             {project.workXpSummary}
                         </p>
 
-                        <ul className="py-2 px-4 mx-6 text-medium list-disc sm:columns-2 sm:gap-6">
+                        <ul className="py-2 px-4 text-medium list-disc sm:columns-2 sm:gap-6">
                             {project.workSkills && (project.workSkills.map((workSkill: any) => (
                                 <li
                                     key={workSkill.id}

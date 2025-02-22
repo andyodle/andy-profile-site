@@ -33,13 +33,10 @@ export const metadata = {
 const RootLayout: React.FC<RootLayoutProps> = ({ children }) => {
     return (
         <html lang="eng">
-            <body className="flex flex-col min-h-screen">
+            <body className="min-w-screen min-h-screen">
                 <ScrollToTopButton />
 
                 <div className="flex-grow">
-                    <div className="main">
-
-                    </div>
 
                     <main className="app">
                         <Nav />

@@ -10,29 +10,13 @@
     font-family: "Helvetica Neue", "Arial"
 }
 
-html{
+html{ 
     max-width: 100vw;
     scroll-behavior: smooth;
 }
 
 svg:hover{
     fill: orangered;    
-}
-
-.main{
-    width: 100vw;
-    min-height: 100vw;
-    position: fixed;
-    display: flex;
-    justify-content: center;
-    padding: 120px 24px 160px 24px;
-    pointer-events: none;
-}
-
-.main:before{
-}
-
-.main:after{
 }
 
 @media screen and (max-width: 640px){
@@ -43,7 +27,7 @@ svg:hover{
 
 /* Tailwind Styles */
 .app{
-    @apply relative z-10 flex justify-center items-center flex-col w-full mx-auto;
+    @apply z-10 flex justify-center items-center flex-col w-full mx-auto;
 }
 
 .flex-center {

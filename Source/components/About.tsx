@@ -3,14 +3,14 @@ const About = () => {
     return (
         <section 
             id="about"
-            className="w-full py-4 flex-center flex-col text-primary-blue scroll-mt-10">
+            className="w-full py-4 flex-center flex-col text-primary-blue scroll-mt-20">
 
             <h1 className="text-center font-semibold text-4xl py-4">ABOUT ME</h1>
 
             <hr className="py-2 w-1/2 mx-auto border-t-4 border-solid rounded-sm" />
 
             <div
-                className="mt-4 mx-12 py-8 space-y-6 sm:columns-2 sm:gap-6 xl:columns-3"
+                className="mt-4 mx-12 py-8 space-y-6 sm:w-screen sm:columns-2 sm:gap-6"
             >
                 <div className="flex-1 py-4 mx-6 font-semibold text-lg basis-1/2">
                     <p className="pb-2">
