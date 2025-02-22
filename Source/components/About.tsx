@@ -14,7 +14,7 @@ const About = () => {
             >
                 <div className="flex-1 py-4 mx-6 font-semibold text-lg basis-1/2">
                     <p className="pb-2">
-                        15+ years of experience as a software engineer, specializeing in 
+                        15+ years of experience as a software engineer, specializing in 
                         designing, developing and optimizing software solutions. 
                         Focusing on creating tools and applications that streamline and improve user workflows. 
                         That enable users to spend more time on their core tasks. 

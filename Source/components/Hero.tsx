@@ -15,7 +15,7 @@ const Hero = () => {
 
             <hr className="py-2 w-1/2 mx-auto border-t-4 border-solid rounded-sm" />
 
-            <span className="py-4 mx-24 font-semibold text-lg">Software Engineer, Entrepreneur in Grants Pass, Oregon</span>
+            <span className="py-4 mx-24 font-semibold text-lg">Software Engineer and Entrepreneur based in Grants Pass, Oregon</span>
 
         </section>
     )
