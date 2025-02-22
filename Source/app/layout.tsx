@@ -9,10 +9,24 @@ interface RootLayoutProps{
 }
 
 export const metadata = {
-    title: "Portfolio",
+    title: "Andy's Portfolio",
     descriptoin: "Learn more about Andy's projects.",
+    locale: 'en_US',
+    type: 'website',
     icons:{
         icon: '/favicon.png'
+    },
+    openGraph: {
+        title: "Andy's Portfolio",
+        description: "Learn more about Andy's projects.",
+        url: "https://andy-profile.netlify.app",
+        images: [
+            {
+                url: 'https://andy-profile.netlify.app/assets/images/ProfileImage.png',
+                width: 200,
+                height: 200,
+              },            
+        ],
     },
 }
 
@@ -21,7 +35,7 @@ const RootLayout: React.FC<RootLayoutProps> = ({ children }) => {
         <html lang="eng">
             <body className="flex flex-col min-h-screen">
                 <ScrollToTopButton />
-                
+
                 <div className="flex-grow">
                     <div className="main">
 
