@@ -6,7 +6,7 @@ interface ProjectCardProps{
 
 const ProjectCard: React.FC<ProjectCardProps> = ({ project, handleProjectClick }) => {
     return (
-        <div className="py-6 w-full min-h-[350] md:max-w-[475px] md:min-h-[200px] break-inside-avoid rounded-[2vw] border-gray-300 bg-primary-nav-blue text-white brightness-150 bg-clip-padding backdrop-blur-lg backdrop-filter">
+        <div className="py-6 w-full min-h-[350] md:min-h-[200px] break-inside-avoid rounded-[2vw] border-gray-300 bg-primary-nav-blue text-white brightness-150 bg-clip-padding backdrop-blur-lg backdrop-filter">
             <div className="w-full px-8 flex-center flex-col items-start">
                 <div className="w-[300px] h-[200px] relative group">
                     {project.imageCapsule && (
