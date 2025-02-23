@@ -10,7 +10,7 @@ interface ProjectCardListProps{
 
 const ProjectCardList: React.FC<ProjectCardListProps> = ({ data, handleProjectClick }) => {
     return (
-        <div className="mt-4 px-2 py-8 w-full space-y-6 sm:w-screen sm:columns-2 sm:gap-4 xl:columns-3">
+        <div className="mt-4 py-8 w-full flex justify-around space-y-6 sm:columns-2 sm:gap-2 xl:columns-3">
             {data.map((tempProject: any) => (
                 <ProjectCard 
                     key={tempProject.id}
@@ -39,7 +39,7 @@ const ProjectFeed = () => {
     return (
         <section 
             id="projects"
-            className="px-4 py-4 flex flex-center flex-col bg-primary-blue text-white scroll-mt-20">
+            className="py-4 w-screen flex flex-col bg-primary-blue text-white scroll-mt-20">
 
             <h1 className="text-center font-semibold text-4xl py-4">Project Showcase</h1>
 

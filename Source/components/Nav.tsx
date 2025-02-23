@@ -17,7 +17,7 @@ const Nav = () => {
     }
 
     return (
-        <div className="absolute z-50">
+        <div className="absolute w-full z-50">
             <nav className="fixed top-0 left-0 w-screen pt-3 py-4 flex flex-col bg-primary-nav-blue text-white">
                 <div
                     className="sm:px-2 md:px-4 pb-4 flex flex-row justify-between items-center"

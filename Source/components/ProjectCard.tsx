@@ -6,8 +6,8 @@ interface ProjectCardProps{
 
 const ProjectCard: React.FC<ProjectCardProps> = ({ project, handleProjectClick }) => {
     return (
-        <div className="p-6 pb-4 mx-4 w-full min-h-[350] md:min-w-[200px] md:min-h-[200px] flex-1 break-inside-avoid rounded-[2vw] border-gray-300 bg-primary-nav-blue text-white brightness-150 bg-clip-padding backdrop-blur-lg backdrop-filter">
-            <div className="w-full px-4 flex-center flex-col justify-between items-start gap-5">
+        <div className="py-6 w-full min-h-[350] md:max-w-[450px] md:min-h-[200px] flex-1 break-inside-avoid rounded-[2vw] border-gray-300 bg-primary-nav-blue text-white brightness-150 bg-clip-padding backdrop-blur-lg backdrop-filter">
+            <div className="w-full px-4 flex-center flex-col justify-between items-start">
                 <div className="w-[300px] h-[200px] relative group">
                     {project.imageCapsule && (
                         <img 
@@ -50,7 +50,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project, handleProjectClick }
                         <hr className="w-1/2 mx-auto border-t-1 border-solid rounded-sm" />
 
                         {/* Tech Tags */}
-                        <div className="py-4 flex flex-wrap text-center text-wrap">
+                        <div className="py-4 flex flex-wrap justify-center text-center text-wrap">
                             {project.techTags && (project.techTags.map((tag: any) => (
                                 <span
                                     key={tag.id} 

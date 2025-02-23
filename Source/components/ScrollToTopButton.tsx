@@ -12,10 +12,10 @@ const ScrollToTopButton = () => {
 
     return (
         <div 
-            className="absolute cursor-pointer brighten-200 z-50"
+            className="absolute pt-[1em] cursor-pointer brighten-200 z-50"
             onClick={() => scrollToTop()}
         >
-            <div className="fixed bottom-4 right-10 sm:right-8 md:right-4 m-2">
+            <div className="fixed bottom-2 right-2 sm:right-8 md:right-4 m-2">
                 <ImageSVG 
                     width={48}
                     height={48}
