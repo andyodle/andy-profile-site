@@ -6,8 +6,8 @@ interface ProjectCardProps{
 
 const ProjectCard: React.FC<ProjectCardProps> = ({ project, handleProjectClick }) => {
     return (
-        <div className="py-6 w-full min-h-[350] md:max-w-[450px] md:min-h-[200px] flex-1 break-inside-avoid rounded-[2vw] border-gray-300 bg-primary-nav-blue text-white brightness-150 bg-clip-padding backdrop-blur-lg backdrop-filter">
-            <div className="w-full px-4 flex-center flex-col justify-between items-start">
+        <div className="py-6 w-full min-h-[350] md:max-w-[475px] md:min-h-[200px] break-inside-avoid rounded-[2vw] border-gray-300 bg-primary-nav-blue text-white brightness-150 bg-clip-padding backdrop-blur-lg backdrop-filter">
+            <div className="w-full px-8 flex-center flex-col items-start">
                 <div className="w-[300px] h-[200px] relative group">
                     {project.imageCapsule && (
                         <img 
@@ -26,11 +26,11 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project, handleProjectClick }
                 </div>
                 
                 {/* Title */}
-                <h1 className="text-center mx-4 py-2 font-semibold text-xl sm:text-2xl xl:text-4xl">{project.title}</h1>
-                <hr className="w-1/2 mx-auto border-t-1 border-solid rounded-sm" />
+                <h1 className="text-center px-4 py-4 font-semibold text-xl sm:text-2xl xl:text-4xl">{project.title}</h1>
+                <hr className="pb-2 w-1/2 mx-auto border-t-1 border-solid rounded-sm" />
                 
                 {/* Summary */}
-                <p className="py-2 min-h-[175] font-semibold text-lg">
+                <p className="py-4 min-h-[200] font-semibold text-lg">
                     {project.summary}
                 </p>
 
@@ -38,7 +38,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project, handleProjectClick }
                 <a 
                     href={project.websiteLink}
                     target="_blank"                    
-                    className="py-2 px-4 bg-primary-orange hover:brightness-75 text-white font-bold rounded"
+                    className="my-2 py-2 px-4 bg-primary-orange hover:brightness-75 text-white font-bold rounded"
                 >
                     VIEW PROJECT
                 </a>                    
@@ -47,7 +47,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project, handleProjectClick }
                 {project.workXpSummary && (
                     <div className="mx-4 w-full">              
                         <h1 className="text-center py-4 font-semibold  text-xl sm:text-2xl xl:text-4xl">Work Experience</h1>
-                        <hr className="w-1/2 mx-auto border-t-1 border-solid rounded-sm" />
+                        <hr className="pb-2 w-1/2 mx-auto border-t-1 border-solid rounded-sm" />
 
                         {/* Tech Tags */}
                         <div className="py-4 flex flex-wrap justify-center text-center text-wrap">
