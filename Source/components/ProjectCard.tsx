@@ -50,11 +50,11 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project, handleProjectClick }
                         <hr className="pb-2 w-1/2 mx-auto border-t-1 border-solid rounded-sm" />
 
                         {/* Tech Tags */}
-                        <div className="py-4 flex flex-wrap justify-center text-center text-wrap">
+                        <div className="py-4 min-h-[100] flex flex-wrap justify-center items-center text-center text-wrap">
                             {project.techTags && (project.techTags.map((tag: any) => (
                                 <span
                                     key={tag.id} 
-                                    className="me-2 m-2 px-2.5 py-0.5 bg-gray-100 text-gray-800 text-xs font-medium rounded-sm dark:bg-gray-700 dark:text-gray-300">
+                                    className="me-2 m-2 px-2.5 py-0.5 max-h-5 bg-gray-100 text-gray-800 text-xs font-medium rounded-sm dark:bg-gray-700 dark:text-gray-300">
                                     {tag.tag}
                                 </span>
                             )))}
@@ -64,11 +64,11 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project, handleProjectClick }
                             {project.workXpSummary}
                         </p>
 
-                        <ul className="py-2 px-4 text-medium list-disc sm:columns-2 sm:gap-6">
+                        <ul className="py-2 px-4 text-medium list-disc sm:columns-2 sm:gap-12">
                             {project.workSkills && (project.workSkills.map((workSkill: any) => (
                                 <li
                                     key={workSkill.id}
-                                    className="py-2"
+                                    className="pb-10"
                                 >
                                     <span className="font-bold">{workSkill.skill}</span>
                                     <br /> 

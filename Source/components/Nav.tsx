@@ -27,7 +27,7 @@ const Nav = () => {
                     >              
                         {/* Home Link */}
                         <span 
-                            className="text-2xl sm:text-3xl object-contain hover:text-primary-orange whitespace-nowrap cursor-pointer"
+                            className="pl-4 text-2xl sm:text-3xl object-contain hover:text-primary-orange whitespace-nowrap cursor-pointer"
                             onClick={() => scrollToSection("home")}
                         >
                             ANDY ODLE
