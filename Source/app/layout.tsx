@@ -10,7 +10,7 @@ interface RootLayoutProps{
 
 export const metadata = {
     title: "Andy's Portfolio",
-    descriptoin: "Learn more about Andy's projects.",
+    description: "Andy's portfolio as a software engineer, specializing in designing, developing and optimizing software solutions.",
     locale: 'en_US',
     type: 'website',
     icons:{
@@ -18,7 +18,7 @@ export const metadata = {
     },
     openGraph: {
         title: "Andy's Portfolio",
-        description: "Learn more about Andy's projects.",
+        description: "Andy's portfolio as a software engineer, specializing in designing, developing and optimizing software solutions.",
         url: "https://andy-profile.netlify.app",
         images: [
             {
@@ -32,7 +32,7 @@ export const metadata = {
 
 const RootLayout: React.FC<RootLayoutProps> = ({ children }) => {
     return (
-        <html lang="eng">
+        <html lang="en-US">
             <body className="min-w-screen min-h-screen">
                 <ScrollToTopButton />
 
